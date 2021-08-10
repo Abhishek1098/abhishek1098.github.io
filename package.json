@@ -1,0 +1,26 @@
+{
+  "name": "MyWebsite",
+  "version": "1.0.0",
+  "description": "My website!",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel ./src/index.html",
+    "prebuild": "npx rimraf build",
+    "build": "parcel build --public-url ./ ./src/index.html --experimental-scope-hoisting --out-dir build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Abhishek1098/abhishek1098.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Abhishek1098/abhishek1098.github.io/issues"
+  },
+  "homepage": "https://github.com/Abhishek1098/abhishek1098.github.io#readme",
+  "dependencies": {
+    "@popperjs/core": "^2.9.3",
+    "bootstrap": "^5.1.0"
+  }
+}
